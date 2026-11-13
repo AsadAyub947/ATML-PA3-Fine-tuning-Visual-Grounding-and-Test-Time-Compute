@@ -1,0 +1,6 @@
+{
+ "rule": "scale = mean||text_emb|| (training captions+questions) / mean||connector_init(F)|| (256 training images)",
+ "text_norm": 0.8681159019470215,
+ "connector_init_norm": 15.857780456542969,
+ "scale": 0.05474384667677967
+}

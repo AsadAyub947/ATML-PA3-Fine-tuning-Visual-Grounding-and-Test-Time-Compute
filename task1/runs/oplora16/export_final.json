@@ -1,0 +1,19 @@
+{
+  "stage": "final",
+  "adapter_bytes": 40488579,
+  "export_bytes": 40490213,
+  "n_adapter_params": 10092544,
+  "export_factor_s": 0.12,
+  "max_rel_UkT_Btilde": 0.00011916086805285886,
+  "max_rel_Atilde_Vk": 0.00018755102064460516,
+  "max_rel_UkT_deltaW": 0.00012033969687763602,
+  "basis_bytes": 323084149,
+  "merge_s": 3.3,
+  "merged_bytes": 1203563926,
+  "merge_check": {
+    "max_abs_logit_diff": 0.15625,
+    "mean_abs_logit_diff": 0.006003293674439192,
+    "logit_abs_mean": 2.6410741806030273,
+    "top1_agreement": 1.0
+  }
+}

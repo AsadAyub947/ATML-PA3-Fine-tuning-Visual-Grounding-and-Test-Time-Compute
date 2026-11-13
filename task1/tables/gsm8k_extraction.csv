@@ -1,0 +1,8 @@
+condition,flex_em,strict_em,unextractable_flex_pct,truncated_pct,em_among_not_truncated
+Baseline,43.37,0.0,0.0,0.83,43.73
+Full FT (mid),56.71,0.0,0.0,0.83,57.19
+Full FT,64.75,0.0,0.0,0.99,65.39
+Full FT + L2-SP,65.28,0.0,0.0,0.61,65.68
+LoRA-4,59.74,0.0,0.0,1.21,60.48
+LoRA-16,62.24,0.0,0.15,0.38,62.48
+OPLoRA-16,61.41,0.0,0.08,0.45,61.54

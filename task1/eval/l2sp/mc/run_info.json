@@ -1,0 +1,28 @@
+{
+  "cmd": [
+    "/usr/bin/python3",
+    "-m",
+    "lm_eval",
+    "run",
+    "--model",
+    "hf",
+    "--model_args",
+    "pretrained=/kaggle/working/task1/models/l2sp,dtype=float16",
+    "--tasks",
+    "hellaswag,boolq,arc_easy",
+    "--num_fewshot",
+    "0",
+    "--batch_size",
+    "auto:4",
+    "--max_batch_size",
+    "64",
+    "--device",
+    "cuda",
+    "--log_samples",
+    "--output_path",
+    "/kaggle/working/task1/eval/l2sp/mc",
+    "--seed",
+    "6304"
+  ],
+  "wall_s": 747.3
+}

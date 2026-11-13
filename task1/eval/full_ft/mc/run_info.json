@@ -1,0 +1,28 @@
+{
+  "cmd": [
+    "/usr/bin/python3",
+    "-m",
+    "lm_eval",
+    "run",
+    "--model",
+    "hf",
+    "--model_args",
+    "pretrained=/content/drive/MyDrive/ATML_PA3/task1/models/full_ft,dtype=float16",
+    "--tasks",
+    "hellaswag,boolq,arc_easy",
+    "--num_fewshot",
+    "0",
+    "--batch_size",
+    "auto:4",
+    "--max_batch_size",
+    "64",
+    "--device",
+    "cuda",
+    "--log_samples",
+    "--output_path",
+    "/content/drive/MyDrive/ATML_PA3/task1/eval/full_ft/mc",
+    "--seed",
+    "6304"
+  ],
+  "wall_s": 610.6
+}

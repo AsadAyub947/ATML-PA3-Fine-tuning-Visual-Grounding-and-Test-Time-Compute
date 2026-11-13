@@ -1,0 +1,19 @@
+# Python 3.13 (Google Colab / Kaggle images, November 2026), NVIDIA Tesla T4 (16 GB).
+# torch and the CUDA stack come from the platform image; the versions recorded in the
+# lm-eval results files were:
+#   Colab : torch 2.14.1+cu130, transformers 5.22.1
+#   Kaggle: torch 2.11.0+cu130, transformers 5.20.2
+torch>=2.11
+transformers>=4.56,<6
+accelerate>=0.33
+datasets>=2.19
+safetensors
+lm-eval==0.4.13
+math-verify[antlr4_13_2]==0.9.0
+pyarrow
+pandas
+numpy
+scipy
+matplotlib
+pyyaml
+pillow

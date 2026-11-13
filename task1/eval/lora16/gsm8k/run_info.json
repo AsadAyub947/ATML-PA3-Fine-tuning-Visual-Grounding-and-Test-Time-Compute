@@ -1,0 +1,30 @@
+{
+  "cmd": [
+    "/usr/bin/python3",
+    "-m",
+    "lm_eval",
+    "run",
+    "--model",
+    "hf",
+    "--model_args",
+    "pretrained=/tmp/scratch_task1/merged_models/lora16,dtype=float16,enable_thinking=False",
+    "--tasks",
+    "gsm8k_cot",
+    "--num_fewshot",
+    "0",
+    "--apply_chat_template",
+    "--gen_kwargs",
+    "max_gen_toks=1024",
+    "do_sample=False",
+    "--batch_size",
+    "32",
+    "--device",
+    "cuda",
+    "--log_samples",
+    "--output_path",
+    "/kaggle/working/task1/eval/lora16/gsm8k",
+    "--seed",
+    "6304"
+  ],
+  "wall_s": 987.3
+}

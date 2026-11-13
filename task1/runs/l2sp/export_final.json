@@ -1,0 +1,8 @@
+{
+  "stage": "final",
+  "condition": "l2sp",
+  "displacement_l2": 6.271264557392325,
+  "export_dir": "/kaggle/working/task1/models/l2sp",
+  "export_bytes": 1203563926,
+  "export_s": 14.1
+}

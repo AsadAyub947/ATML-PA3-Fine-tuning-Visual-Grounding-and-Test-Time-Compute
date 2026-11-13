@@ -1,0 +1,15 @@
+{
+  "stage": "final",
+  "adapter_bytes": 40488515,
+  "export_bytes": 40490149,
+  "n_adapter_params": 10092544,
+  "export_factor_s": 0.15,
+  "merge_s": 5.2,
+  "merged_bytes": 1203563926,
+  "merge_check": {
+    "max_abs_logit_diff": 0.09765625,
+    "mean_abs_logit_diff": 0.006111736409366131,
+    "logit_abs_mean": 2.6162502765655518,
+    "top1_agreement": 0.9953917264938354
+  }
+}

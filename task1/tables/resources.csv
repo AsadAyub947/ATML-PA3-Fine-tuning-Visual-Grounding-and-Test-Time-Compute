@@ -1,0 +1,6 @@
+method,trainable_params,train_time_h,peak_alloc_gb,peak_reserved_gb,recovery_ckpt_gb,skipped_updates,final_sft_loss_avg_last50,export_fp16_gb,displacement_final,penalty_overhead_s,theta0_gb,displacement_mid,omega_final,lam_omega_final,adapter_gb,adapter_export_gb,merged_fp16_gb,merge_max_abs_logit_diff,merge_top1_agree,svd_preprocess_s,basis_gb,export_factor_s,max_rel_UkT_deltaW
+Full FT,596049920,2.453,11.693,14.275,6.662,0,0.1843,1.121,10.666882590439947,0.0,2.22,10.030751969026719,,,,,,,,,,,
+Full FT + L2-SP,596049920,2.375,11.693,13.098,6.662,0,0.1842,1.121,6.271264557392325,446.1,2.22,,19.664379574402574,0.019664379574402573,,,,,,,,,
+LoRA-4,2523136,2.544,3.144,5.924,0.029,0,0.2117,,,,,,,,0.01,0.01,1.121,0.140625,1.0,,,,
+LoRA-16,10092544,2.542,3.255,6.035,0.113,0,0.1986,,,,,,,,0.038,0.038,1.121,0.09765625,0.9953917264938354,,,,
+OPLoRA-16,10092544,3.344,3.58,6.451,0.113,0,0.1996,,,,,,,,0.038,0.038,1.121,0.15625,1.0,34.57,0.301,0.12,0.00012033969687763602

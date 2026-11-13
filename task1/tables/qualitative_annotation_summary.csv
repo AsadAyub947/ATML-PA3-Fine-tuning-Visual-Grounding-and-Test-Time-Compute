@@ -1,0 +1,8 @@
+condition,n,format_mean,coherence_mean,repetition,math_framing,inappropriate,truncated
+Baseline,6,1.83,1.33,0,0,0,0
+Full FT (mid),6,1.5,1.17,3,1,0,2
+Full FT,6,1.5,1.17,2,3,0,1
+Full FT + L2-SP,6,1.33,1.17,1,4,0,1
+LoRA-4,6,1.67,1.5,0,0,0,0
+LoRA-16,6,1.67,1.5,2,2,0,0
+OPLoRA-16,6,1.5,1.5,2,2,0,0

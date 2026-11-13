@@ -1,0 +1,6 @@
+item,time_min,peak_gpu_gb,trainable_params,notes
+feature caching (download + SigLIP),8.9,1.365,0,"9283 images, 2.603 GB FP16 cache"
+vis196 · stage1_caption,46.5,1.573,1837056,mixture draws {'caption': 18000}
+vis196 · stage2_instruct,35.3,1.567,6424576,"mixture draws {'presence': 5965, 'counting': 3032, 'caption': 3003}"
+vis196 · stage3_vqa,17.3,1.564,6424576,"mixture draws {'vqa': 4192, 'counting': 625, 'presence': 624, 'caption': 559}"
+vis196 · final generation,0.67,1.504,0,mean 31.6 ms/answer (batch 8)

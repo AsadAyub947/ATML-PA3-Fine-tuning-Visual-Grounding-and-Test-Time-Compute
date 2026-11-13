@@ -1,0 +1,21 @@
+comparison,factor,benchmark,diff_pp,ci_lo,ci_hi
+LoRA-16 − LoRA-4,rank,GSM8K,2.5,0.38,4.55
+LoRA-16 − LoRA-4,rank,hellaswag,0.2,-0.13,0.53
+LoRA-16 − LoRA-4,rank,boolq,7.49,6.02,8.99
+LoRA-16 − LoRA-4,rank,arc_easy,0.72,-0.21,1.68
+Full FT + L2-SP − Full FT,explicit regularisation,GSM8K,0.53,-1.21,2.35
+Full FT + L2-SP − Full FT,explicit regularisation,hellaswag,0.12,-0.23,0.47
+Full FT + L2-SP − Full FT,explicit regularisation,boolq,5.14,4.04,6.24
+Full FT + L2-SP − Full FT,explicit regularisation,arc_easy,-0.93,-1.81,-0.04
+OPLoRA-16 − LoRA-16,orthogonal protection,GSM8K,-0.83,-2.5,0.83
+OPLoRA-16 − LoRA-16,orthogonal protection,hellaswag,-0.15,-0.39,0.09
+OPLoRA-16 − LoRA-16,orthogonal protection,boolq,-1.28,-2.11,-0.49
+OPLoRA-16 − LoRA-16,orthogonal protection,arc_easy,-0.51,-1.14,0.13
+LoRA-16 − Full FT,Full FT vs LoRA-16,GSM8K,-2.5,-5.0,-0.23
+LoRA-16 − Full FT,Full FT vs LoRA-16,hellaswag,1.31,0.84,1.8
+LoRA-16 − Full FT,Full FT vs LoRA-16,boolq,11.59,9.76,13.46
+LoRA-16 − Full FT,Full FT vs LoRA-16,arc_easy,-0.08,-1.22,1.09
+Full FT − Full FT (mid),Full FT progression,GSM8K,8.04,5.61,10.54
+Full FT − Full FT (mid),Full FT progression,hellaswag,0.54,0.21,0.87
+Full FT − Full FT (mid),Full FT progression,boolq,-0.21,-0.89,0.46
+Full FT − Full FT (mid),Full FT progression,arc_easy,1.43,0.63,2.23

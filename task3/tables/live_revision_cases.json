@@ -1,0 +1,18 @@
+[
+ {
+  "qid": "test:4702",
+  "transition": "C\u2192W",
+  "gold": "59",
+  "initial": "59",
+  "revised": null,
+  "revision_text": "The solution provided is correct. The steps and logic used to find the equivalent angle for \\(\\sin 419^\\circ\\) within the range \\(-90^\\circ \\le n \\le 90^\\circ\\) are accurate. Here is a step-by-step verification:\n\n1. Reduce \\(419^\\circ\\) to an angle between \\(0^\\circ\\) and \\(360^\\circ\\):\n   \\[\n   419^\\circ - 360^\\circ = 59^\\circ.\n   \\]\n   So, \\(\\sin 419^\\circ = \\sin 59^\\circ\\).\n\n2. Use the identity \\(\\sin \\theta = \\sin (180^\\circ - \\theta)\\) to find another equivalent angle:\n   \\[\n   \\sin 59^\\circ = \\sin (180^\\circ - 59^\\circ) = \\sin 121^\\circ.\n   \\]\n   Since \\(121^\\circ\\) is not in the range \\(-90^\\circ \\le n \\le 90^\\circ\\), we use the identity \\(\\sin \\theta = \\sin (-\\theta)\\) to find an equivalent negative angle:\n   \\[\n   \\sin 59^\\circ = \\sin (-121^\\circ).\n   \\]\n   However, \\(-121^\\circ\\) is not in the range \\(-90^\\circ \\le n \\le 90^\\circ\\).\n\n3. Use the identity \\(\\sin \\theta = \\sin (360^\\circ - \\theta)\\) to find another equivalent positive angle:\n   \\[\n   \\sin 59^\\circ = \\sin (360^\\circ - 121^\\circ) = \\sin 239^\\circ.\n   \\]\n   Since \\(239^\\circ\\) is not in the range \\(-90^\\circ \\le n \\le 90^\\circ\\), we use the identity \\(\\sin \\theta = \\sin (360^\\circ - \\theta)\\) again:\n   \\[\n   \\sin 59^\\circ = \\sin (360^\\circ - 239^\\circ) = \\sin 121^\\circ.\n   \\]\n   This is not helpful, so we use the identity \\(\\sin \\theta = \\sin (180^\\circ - \\theta)\\):\n   \\[\n   \\sin 59^\\circ = \\sin (180^\\circ - 59^\\circ) = \\sin 121^\\circ.\n   \\]\n   Since \\(121^\\circ\\) is not in the range, we use the identity "
+ },
+ {
+  "qid": "test:916",
+  "transition": "W\u2192C",
+  "gold": "14",
+  "initial": "12",
+  "revised": "14",
+  "revision_text": "Let's carefully review the solution step-by-step to ensure there are no errors.\n\nGiven the system of equations:\n\\[\n\\begin{align*}\n3x + 4y - 12z &= 10, \\tag{1} \\\\\n-2x - 3y + 9z &= -4. \\tag{2}\n\\end{align*}\n\\]\n\nWe aim to eliminate \\(y\\) by making the coefficients of \\(y\\) in both equations equal in magnitude but opposite in sign. To do this, we multiply equation (1) by 3 and equation (2) by 4:\n\n\\[\n\\begin{align*}\n3(3x + 4y - 12z) &= 3(10), \\\\\n4(-2x - 3y + 9z) &= 4(-4).\n\\end{align*}\n\\]\n\nThis gives us:\n\\[\n\\begin{align*}\n9x + 12y - 36z &= 30, \\tag{3} \\\\\n-8x - 12y + 36z &= -16. \\tag{4}\n\\end{align*}\n\\]\n\nNext, we add equations (3) and (4) to eliminate \\(y\\):\n\\[\n(9x + 12y - 36z) + (-8x - 12y + 36z) = 30 + (-16).\n\\]\n\nSimplifying the left side:\n\\[\n9x - 8x + 12y - 12y - 36z + 36z = 30 - 16,\n\\]\nwhich reduces to:\n\\[\nx = 14.\n\\]\n\nTherefore, the value of \\(x\\) is \\(\\boxed{14}\\)."
+ }
+]

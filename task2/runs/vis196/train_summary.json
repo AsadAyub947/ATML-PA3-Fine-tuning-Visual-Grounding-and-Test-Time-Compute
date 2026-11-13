@@ -1,0 +1,46 @@
+{
+ "run": "vis196",
+ "n_vis": 196,
+ "stage_time_s": [
+  2787.6290934085846,
+  2119.131096124649,
+  1038.335797548294
+ ],
+ "stage_peak_alloc_gb": [
+  1.573,
+  1.567,
+  1.564
+ ],
+ "trainable_params": [
+  1837056,
+  6424576,
+  6424576
+ ],
+ "connector_params": 1837056,
+ "lora_params": 4587520,
+ "mixture_counts": [
+  {
+   "caption": 18000
+  },
+  {
+   "presence": 5965,
+   "counting": 3032,
+   "caption": 3003
+  },
+  {
+   "vqa": 4192,
+   "counting": 625,
+   "presence": 624,
+   "caption": 559
+  }
+ ],
+ "skipped_updates": [
+  1,
+  2,
+  3,
+  6,
+  7
+ ],
+ "scale": 0.05474384667677967,
+ "gpu": "Tesla T4"
+}

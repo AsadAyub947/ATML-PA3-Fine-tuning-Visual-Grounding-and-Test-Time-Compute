@@ -1,0 +1,8 @@
+{
+ "mean": -0.2106680740183363,
+ "median": -0.20848316371101716,
+ "frac_positive": 0.14715313624276552,
+ "mean_correct": -0.2019810224086303,
+ "mean_incorrect": -0.2207750396474968,
+ "max_abs_identity_error_Ztok_minus_Z_vs_cov": 0.0
+}

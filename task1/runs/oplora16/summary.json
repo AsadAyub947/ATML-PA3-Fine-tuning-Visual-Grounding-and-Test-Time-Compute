@@ -1,0 +1,47 @@
+{
+  "method": "oplora16",
+  "cfg": {
+    "kind": "oplora",
+    "lr": 0.0002,
+    "r": 16,
+    "alpha": 32,
+    "k": 128
+  },
+  "n_trainable": 10092544,
+  "train_time_s": 12038.1,
+  "penalty_time_s": 0.0,
+  "peak_alloc_gb": 3.58,
+  "peak_reserved_gb": 6.451,
+  "skipped_updates": [],
+  "overhead": {
+    "svd_preprocess_s": 34.57,
+    "basis_bytes": 323084149,
+    "basis_params": 80740352
+  },
+  "recovery_ckpt_gb": {
+    "312": 0.113,
+    "625": 0.113,
+    "937": 0.113,
+    "1250": 0.113
+  },
+  "export": {
+    "stage": "final",
+    "adapter_bytes": 40488579,
+    "export_bytes": 40490213,
+    "n_adapter_params": 10092544,
+    "export_factor_s": 0.12,
+    "max_rel_UkT_Btilde": 0.00011916086805285886,
+    "max_rel_Atilde_Vk": 0.00018755102064460516,
+    "max_rel_UkT_deltaW": 0.00012033969687763602,
+    "basis_bytes": 323084149,
+    "merge_s": 3.3,
+    "merged_bytes": 1203563926,
+    "merge_check": {
+      "max_abs_logit_diff": 0.15625,
+      "mean_abs_logit_diff": 0.006003293674439192,
+      "logit_abs_mean": 2.6410741806030273,
+      "top1_agreement": 1.0
+    }
+  },
+  "gpu": "Tesla T4"
+}

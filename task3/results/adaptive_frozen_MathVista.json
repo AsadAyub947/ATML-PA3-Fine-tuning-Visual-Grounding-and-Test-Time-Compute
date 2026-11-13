@@ -1,0 +1,14 @@
+{
+ "fixed32_dev_accuracy": 0.6425,
+ "chosen": {
+  "agreement": [
+   0.5,
+   null
+  ],
+  "quality": [
+   0.5,
+   0.0
+  ]
+ },
+ "score": "VisConf"
+}

@@ -1,0 +1,84 @@
+7.9s	1	0.00s - Debugger warning: It seems that frozen modules are being used, which may
+7.9s	2	0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+7.9s	3	0.00s - to python to disable frozen modules.
+7.9s	4	0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+8.5s	5	0.00s - Debugger warning: It seems that frozen modules are being used, which may
+8.5s	6	0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+8.5s	7	0.00s - to python to disable frozen modules.
+8.5s	8	0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+14.8s	9	WORK = /kaggle/working/task3 | data root exists: False
+16.5s	10	copied prepared_MATH.pkl
+17.0s	11	copied prepared_MathVista.pkl
+17.0s	12	copied splits_MATH.json
+17.0s	13	copied splits_MathVista.json
+23.3s	14	Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+23.3s	15	
+23.3s	16	Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+25.6s	17	problem texts filled; gold check on the 50 live questions: 50/50 match
+49.9s	18	first live problem text (check it is the raw problem, not a full chat prompt):
+49.9s	19	 The arithmetic mean (or average) of $A$, $B$ and $C$ is 10. The value of $A$ is six less than the value of $B$, and the value of $C$ is three more than the value of $B$. What is the value of $C$?
+191.0s	20	  live 1/50 q=test:943 | tokens single=399 par=[381, 403, 366] rev=327
+359.4s	21	  live 2/50 q=test:2688 | tokens single=695 par=[519, 603, 1024] rev=454
+626.2s	22	  live 3/50 q=test:3504 | tokens single=1091 par=[1001, 1024, 1024] rev=993
+699.6s	23	  live 4/50 q=test:4335 | tokens single=289 par=[325, 306, 314] rev=203
+1026.7s	24	  live 5/50 q=test:2460 | tokens single=936 par=[1024, 999, 1024] rev=2048
+1206.7s	25	  live 6/50 q=test:1324 | tokens single=674 par=[800, 692, 601] rev=758
+1418.5s	26	  live 7/50 q=test:2340 | tokens single=807 par=[875, 983, 757] rev=737
+1488.9s	27	  live 8/50 q=test:1577 | tokens single=220 par=[273, 211, 394] rev=271
+1573.1s	28	  live 9/50 q=test:639 | tokens single=326 par=[355, 306, 267] rev=407
+1849.9s	29	  live 10/50 q=test:2892 | tokens single=1617 par=[980, 764, 1024] rev=992
+2217.3s	30	  live 11/50 q=test:4702 | tokens single=3072 par=[539, 513, 425] rev=2048
+2439.4s	31	  live 12/50 q=test:1709 | tokens single=936 par=[833, 813, 879] rev=806
+2505.4s	32	  live 13/50 q=test:4041 | tokens single=257 par=[243, 245, 314] rev=222
+2729.5s	33	  live 14/50 q=test:2119 | tokens single=695 par=[1024, 854, 822] rev=802
+2859.5s	34	  live 15/50 q=test:2087 | tokens single=678 par=[547, 440, 435] rev=425
+3135.2s	35	  live 16/50 q=test:4549 | tokens single=1218 par=[1024, 1024, 1001] rev=1052
+3348.9s	36	  live 17/50 q=test:2732 | tokens single=1156 par=[594, 900, 1022] rev=534
+3434.3s	37	  live 18/50 q=test:1433 | tokens single=334 par=[337, 372, 302] rev=329
+3719.1s	38	  live 19/50 q=test:3285 | tokens single=1317 par=[1024, 1024, 1024] rev=1101
+3805.2s	39	  live 20/50 q=test:29 | tokens single=378 par=[340, 291, 404] rev=287
+4068.0s	40	  live 21/50 q=test:2948 | tokens single=1037 par=[1024, 1024, 950] rev=1057
+4197.1s	41	  live 22/50 q=test:1997 | tokens single=583 par=[530, 444, 487] rev=514
+4356.6s	42	  live 23/50 q=test:414 | tokens single=727 par=[543, 706, 659] rev=517
+4499.2s	43	  live 24/50 q=test:1808 | tokens single=612 par=[527, 601, 581] rev=504
+4590.3s	44	  live 25/50 q=test:4962 | tokens single=377 par=[430, 409, 344] rev=244
+4732.9s	45	  live 26/50 q=test:274 | tokens single=595 par=[597, 568, 484] rev=570
+4830.4s	46	  live 27/50 q=test:916 | tokens single=382 par=[373, 363, 426] rev=389
+4933.2s	47	  live 28/50 q=test:534 | tokens single=476 par=[444, 287, 509] rev=312
+5203.5s	48	  live 29/50 q=test:2177 | tokens single=1224 par=[1024, 1024, 1024] rev=935
+5363.2s	49	  live 30/50 q=test:1043 | tokens single=499 par=[750, 653, 470] rev=763
+5430.1s	50	  live 31/50 q=test:373 | tokens single=312 par=[236, 320, 254] rev=202
+5558.4s	51	  live 32/50 q=test:1379 | tokens single=441 par=[566, 483, 606] rev=449
+5770.6s	52	  live 33/50 q=test:196 | tokens single=1233 par=[648, 759, 933] rev=633
+5933.2s	53	  live 34/50 q=test:2134 | tokens single=984 par=[433, 699, 661] rev=448
+6094.8s	54	  live 35/50 q=test:771 | tokens single=468 par=[508, 872, 877] rev=468
+6326.1s	55	  live 36/50 q=test:3572 | tokens single=785 par=[994, 975, 849] rev=899
+6615.5s	56	  live 37/50 q=test:2358 | tokens single=1285 par=[1024, 1024, 1024] rev=1231
+6695.5s	57	  live 38/50 q=test:2019 | tokens single=310 par=[302, 304, 341] rev=331
+6789.9s	58	  live 39/50 q=test:4144 | tokens single=350 par=[298, 392, 393] rev=437
+6924.3s	59	  live 40/50 q=test:3314 | tokens single=392 par=[684, 463, 686] rev=435
+7016.6s	60	  live 41/50 q=test:3239 | tokens single=309 par=[319, 303, 641] rev=262
+7241.6s	61	  live 42/50 q=test:4678 | tokens single=977 par=[866, 987, 1024] rev=583
+7397.1s	62	  live 43/50 q=test:1122 | tokens single=869 par=[523, 809, 466] rev=425
+7476.1s	63	  live 44/50 q=test:4168 | tokens single=297 par=[329, 302, 310] rev=333
+7526.3s	64	  live 45/50 q=test:1300 | tokens single=267 par=[198, 182, 182] rev=168
+7783.3s	65	  live 46/50 q=test:4516 | tokens single=965 par=[1024, 1024, 1024] rev=956
+7943.1s	66	  live 47/50 q=test:1903 | tokens single=562 par=[591, 507, 807] rev=698
+8038.5s	67	  live 48/50 q=test:1916 | tokens single=386 par=[313, 547, 320] rev=324
+8239.9s	68	  live 49/50 q=test:3409 | tokens single=765 par=[914, 772, 879] rev=649
+8303.3s	69	  live 50/50 q=test:3617 | tokens single=229 par=[253, 320, 238] rev=217
+8304.2s	70	             strategy  accuracy  extraction_rate  truncation_rate  mean_input_tokens  mean_output_tokens  mean_runtime_s  peak_gpu_gb
+8304.2s	71	initial_only (1×1024)      0.56             0.84             0.16             108.38              606.06          30.717        5.935
+8304.2s	72	        parallel_3_SC      0.60             0.84             0.24             325.14             1861.30          94.214        5.935
+8304.2s	73	sequential_refinement      0.56             0.96             0.18             859.98             1221.04          63.993        6.174
+8304.2s	74	          single_long      0.60             0.98             0.02             108.38              715.86          36.695        6.084
+8304.2s	75	revision transitions: {'C→C': 27, 'W→W': 21, 'C→W': 1, 'W→C': 1}
+8304.2s	76	{'parallel_3_SC − single_long': (0.0, -0.12, 0.12), 'sequential_refinement − single_long': (-0.04, -0.14, 0.06), 'sequential_refinement − parallel_3_SC': (-0.04, -0.14, 0.06)}
+8310.1s	77	/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\|'
+8310.1s	78	  cells[i][c] = re.sub('\\\\\|', '|', cell)
+8310.3s	79	/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\_'
+8310.3s	80	  text = re.sub(r'_', '\_', text) # Escape underscores in display text
+8311.1s	81	[NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+8311.2s	82	[NbConvertApp] Writing 308578 bytes to __notebook__.ipynb
+8313.6s	83	[NbConvertApp] Converting notebook __notebook__.ipynb to html
+8314.4s	84	[NbConvertApp] Writing 795424 bytes to __results__.html

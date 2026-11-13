@@ -1,0 +1,21 @@
+# Large artefacts that are intentionally not committed (see README, "Not included")
+models/
+**/models/
+**/recovery/
+**/checkpoints/
+**/features/
+*.pt
+*.pth
+*.safetensors
+*.bin
+*.npz
+*.pkl
+**/samples_*.jsonl
+ATML-PA3-Data/
+ATML-PA3-Data.zip
+repo_extras.zip
+
+# Python / notebook clutter
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store

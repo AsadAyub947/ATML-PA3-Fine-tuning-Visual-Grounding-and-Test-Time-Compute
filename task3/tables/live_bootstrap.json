@@ -1,0 +1,17 @@
+{
+ "parallel_3_SC \u2212 single_long": [
+  0.0,
+  -0.12,
+  0.12
+ ],
+ "sequential_refinement \u2212 single_long": [
+  -0.04,
+  -0.14,
+  0.06
+ ],
+ "sequential_refinement \u2212 parallel_3_SC": [
+  -0.04,
+  -0.14,
+  0.06
+ ]
+}

@@ -1,0 +1,14 @@
+{
+ "fixed32_dev_accuracy": 0.825,
+ "chosen": {
+  "agreement": [
+   0.625,
+   null
+  ],
+  "quality": [
+   0.5,
+   0.0
+  ]
+ },
+ "score": "self-certainty"
+}

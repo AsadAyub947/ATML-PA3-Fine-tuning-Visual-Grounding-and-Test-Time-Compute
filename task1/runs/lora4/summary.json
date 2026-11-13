@@ -1,0 +1,38 @@
+{
+  "method": "lora4",
+  "cfg": {
+    "kind": "lora",
+    "lr": 0.0002,
+    "r": 4,
+    "alpha": 8
+  },
+  "n_trainable": 2523136,
+  "train_time_s": 9159.4,
+  "penalty_time_s": 0.0,
+  "peak_alloc_gb": 3.144,
+  "peak_reserved_gb": 5.924,
+  "skipped_updates": [],
+  "overhead": {},
+  "recovery_ckpt_gb": {
+    "312": 0.029,
+    "625": 0.029,
+    "937": 0.029,
+    "1250": 0.029
+  },
+  "export": {
+    "stage": "final",
+    "adapter_bytes": 10210883,
+    "export_bytes": 10212517,
+    "n_adapter_params": 2523136,
+    "export_factor_s": 0.04,
+    "merge_s": 4.9,
+    "merged_bytes": 1203563926,
+    "merge_check": {
+      "max_abs_logit_diff": 0.140625,
+      "mean_abs_logit_diff": 0.006332935765385628,
+      "logit_abs_mean": 2.600965976715088,
+      "top1_agreement": 1.0
+    }
+  },
+  "gpu": "Tesla T4"
+}
