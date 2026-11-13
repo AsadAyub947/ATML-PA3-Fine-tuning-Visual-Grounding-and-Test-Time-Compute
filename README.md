@@ -23,26 +23,28 @@ notebooks/                       the exact notebooks that produced the results (
   task3_kaggle_live_generation.ipynb
 task1/
   ids/        probe_set.json (activation-probe IDs), train_meta.json (selected MetaMathQA training examples)
-  runs/<method>/   summary.json (config, time, memory, displacement), export_*.json, oplora_overhead.json
+  runs/<method>/   summary.json (config, time, memory, displacement), export_*.json, oplora_overhead.json,
+                   train_log.jsonl (per-update log), checkpoints.jsonl (recovery-checkpoint log)
   eval/<condition>/{gsm8k,mc}/   lm-eval results.json + run_info.json (exact command)
   tables/     benchmarks.csv, paired_comparisons.csv, gsm8k_extraction.csv, resources.csv, diagnostics*.csv,
               qualitative_all_168.csv, qualitative_annotation_42.csv (manual annotation),
               qualitative_annotation_summary.csv, per_example/ (per-question scores for every condition)
   figures/    benchmarks.png, learning_curves.png, diagnostics.png
 task2/
-  ids/        mismatch maps and per-stage sampling schedules (selection.json: see "Large files")
-  runs/vis196/  train_summary.json, calibration.json, final_test_records.json, final_eval_info.json
+  ids/        mismatch maps, per-stage sampling schedules, selection.json (selected example IDs)
+  runs/vis196/  train_summary.json, calibration.json, final_test_records.json, final_eval_info.json,
+                train_log.jsonl (per-update log), dev_log.jsonl (development evaluations)
   tables/     final_vis196.csv, final_advantages_vis196.csv, final_per_example_vis196.csv,
               dev_curves_vis196.csv, resources.csv, qualitative_vis196.md
   figures/    learning_curves_vis196.png, qualitative_pairs_vis196.png
 task3/
   ids/        splits_{MATH,MathVista}.json (dev/eval/live IDs), orders_*.json (candidate orders)
-  results/    adaptive_frozen_*.json (dev-selected thresholds), live_generation_kaggle.log (live-run log);
-              live records: see "Large files"
+  results/    adaptive_frozen_*.json (dev-selected thresholds), live_records.jsonl (live-generation records),
+              prefix_results_{MATH,MathVista}.parquet (offline prefix results), live_generation_kaggle.log
   tables/     selection_*, bootstrap_*, failure_decomposition_*, per_question_*, signals_*,
               conf_vision_corr_*, adaptive_*, live_*, failure_cases.md
   figures/    compute_allocation_*, failure_decomposition_*, conf_vision_corr_hist, illustrative_trajectories_mathvista
-scripts/fetch_large_files_colab.py   collects the raw logs listed under "Large files"
+scripts/fetch_large_files_colab.py   copies the raw logs and result files above from Drive (used to assemble this repo)
 requirements.txt
 ```
 
@@ -98,17 +100,17 @@ private Kaggle dataset; its `live_records.jsonl` was copied back before session 
 | Task | Evidence | Files |
 |---|---|---|
 | 1 | Benchmarks, 7 conditions × 4 benchmarks, Δ in pp | `task1/tables/benchmarks.csv`, `paired_comparisons.csv`, `gsm8k_extraction.csv`, `figures/benchmarks.png` |
-| 1 | SFT loss; L2-SP penalty and displacement | `figures/learning_curves.png`, `tables/resources.csv`, `runs/*/summary.json` |
+| 1 | SFT loss; L2-SP penalty and displacement | `figures/learning_curves.png`, `tables/resources.csv`, `runs/*/summary.json`, `runs/*/train_log.jsonl` |
 | 1 | Resources | `tables/resources.csv` |
 | 1 | Diagnostics (ρ_k, η, R(z)) | `tables/diagnostics.csv`, `diagnostics_R_per_probe.csv`, `figures/diagnostics.png` |
 | 1 | Qualitative (42 annotated responses) | `tables/qualitative_annotation_42.csv`, `qualitative_annotation_summary.csv`, `qualitative_all_168.csv` |
-| 2 | Learning curves with stage boundaries | `figures/learning_curves_vis196.png`, `tables/dev_curves_vis196.csv` |
+| 2 | Learning curves with stage boundaries | `figures/learning_curves_vis196.png`, `tables/dev_curves_vis196.csv`, `runs/vis196/{train,dev}_log.jsonl` |
 | 2 | Final results, pair diagnostics, advantages, CIs | `tables/final_vis196.csv`, `final_advantages_vis196.csv`, `final_per_example_vis196.csv` |
 | 2 | Qualitative pairs | `tables/qualitative_vis196.md`, `figures/qualitative_pairs_vis196.png` |
 | 2 | Resources incl. feature caching | `tables/resources.csv`, `runs/vis196/train_summary.json` |
 | 3 | Sampling/selection curves, method comparison, failure decomposition | `figures/compute_allocation_*.png`, `tables/selection_*_eval.csv`, `bootstrap_*_eval.csv`, `failure_decomposition_*` |
 | 3 | Signal analysis, confidence–vision relationship | `tables/signals_*.csv`, `conf_vision_corr_*`, `figures/conf_vision_corr_hist.png`, `illustrative_trajectories_mathvista.png` |
-| 3 | Live inference (50 questions) | `tables/live_strategies.csv`, `live_bootstrap.json`, `live_revision_transitions.json`, `live_revision_cases.json`, `live_per_question.csv` |
+| 3 | Live inference (50 questions) | `tables/live_strategies.csv`, `live_bootstrap.json`, `live_revision_transitions.json`, `live_revision_cases.json`, `live_per_question.csv`, `results/live_records.jsonl` |
 | 3 | Adaptive inference | `tables/adaptive_dev_grid_*.csv`, `adaptive_eval_*.csv`, `adaptive_vs_pool_*.csv`, `results/adaptive_frozen_*.json` |
 | 3 | Qualitative | `tables/failure_cases.md` |
 
