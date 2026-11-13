@@ -1,0 +1,4 @@
+{"update": 312, "examples": 9984, "path": "/content/scratch_task1/recovery/full_ft/recovery_u0312.pt", "bytes": 7153004601, "gb": 6.662, "save_s": 641.8}
+{"update": 625, "examples": 20000, "path": "/content/scratch_task1/recovery/full_ft/recovery_u0625.pt", "bytes": 7153004601, "gb": 6.662, "save_s": 239.4}
+{"update": 937, "examples": 29984, "path": "/content/scratch_task1/recovery/full_ft/recovery_u0937.pt", "bytes": 7153004601, "gb": 6.662, "save_s": 179.1}
+{"update": 1250, "examples": 40000, "path": "/content/scratch_task1/recovery/full_ft/recovery_u1250.pt", "bytes": 7153004601, "gb": 6.662, "save_s": 198.4}

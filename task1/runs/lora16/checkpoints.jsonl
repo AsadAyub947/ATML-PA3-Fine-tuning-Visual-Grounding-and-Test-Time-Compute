@@ -1,0 +1,4 @@
+{"update": 312, "examples": 9984, "path": "/kaggle/working/task1/recovery/lora16/recovery_u0312.pt", "bytes": 121616526, "gb": 0.113, "save_s": 0.2}
+{"update": 625, "examples": 20000, "path": "/kaggle/working/task1/recovery/lora16/recovery_u0625.pt", "bytes": 121616526, "gb": 0.113, "save_s": 0.3}
+{"update": 937, "examples": 29984, "path": "/kaggle/working/task1/recovery/lora16/recovery_u0937.pt", "bytes": 121616526, "gb": 0.113, "save_s": 0.3}
+{"update": 1250, "examples": 40000, "path": "/kaggle/working/task1/recovery/lora16/recovery_u1250.pt", "bytes": 121616526, "gb": 0.113, "save_s": 0.2}
